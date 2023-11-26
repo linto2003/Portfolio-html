@@ -63,7 +63,7 @@ a:hover{
 
 
 .job{
-    font-weight: lighter;
+    font-weight:lighter;
     font-size: 3rem;
 }
 
@@ -205,7 +205,8 @@ a:hover{
     font-size: 2rem;
 }
 .hero{
-    gap:10px;
+    gap: 10px;
+   flex-direction: column;
 }
 h3{
     font-size:15px;
