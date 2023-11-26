@@ -5,44 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <img src = "https://media.licdn.com/dms/image/D4D03AQHsZhp9hXM8sg/profile-displayphoto-shrink_400_400/0/1668146045236?e=1705536000&v=beta&t=547eSMb1kvr6eBmicWko3LRFZ8AlTh39b25iRqLyKQg" height= 100 alt ="Linto's photo"/>
-    <a href = https://www.youtube.com/watch?v=MpLaDn82FtI&pp=ygUJbW95ZSBtb3ll>
-    <h1>Lintomon Saji Chirakkara</h1>
-    </a>
-    <p> phone : 9324309587
-        <a href = https://www.linkedin.com/in/lintomon-john/>Linkedin</a>
-        <a href = https://mail.google.com/mail/?view=cm&fs=1&to=lintosaji.1990@gmail.com.com&su=SUBJECT&body=BODY>Gmail</a>
-        <a href = https://github.com/linto2003>Github</a>
-    </p>
-
-    <hr>
-
-    <h4>About Me</h4>
-
-    <hr>
-
-    <p>As a student in Computer Engineering at Mumbai University, I am interested in leveraging technology to tackle real-world
-        problems and make a big difference. I am also eager to learn and improve professionally and am open to new challenges and
-        chances for personal and professional growth.</p>
+    <div class="image">
+        <img  src = "https://media.licdn.com/dms/image/D4D03AQHsZhp9hXM8sg/profile-displayphoto-shrink_400_400/0/1668146045236?e=1705536000&v=beta&t=547eSMb1kvr6eBmicWko3LRFZ8AlTh39b25iRqLyKQg" alt ="Linto's photo"/>
+   
     
-    <h4> Education</h4>
-    <hr>
-    <p><h3>Vivekanand Education Society’s Institute of Technology</h3>
-        Bachelor of Engineering in Computer Engineering
-        <ul>
-            <li>Relevant Coursework: Advanced Algorithms, Software Engineering, Data Structures, Python, Analysis of Algorithms,
-                Database Management, Probabilistic Graphical Model, OOP (Java), Operating System, Computer Graphics
-            </li>
-            <li><h4>Overall CPI : 9.3</h4>
-            </li>
-        </ul>
-    </p>
+        <h1 class = "title"  ><a  id = 'name' href = https://www.youtube.com/watch?v=MpLaDn82FtI&pp=ygUJbW95ZSBtb3ll>
+            Lintomon Saji Chirakkara
+        </a></h1> 
+    </div>
+    
+    <div class = "contact" >
+        <p> phone : 9324309587
+         <a href = https://www.linkedin.com/in/lintomon-john/>Linkedin</a>
+         <a href = https://mail.google.com/mail/?view=cm&fs=1&to=lintosaji.1990@gmail.com.com&su=SUBJECT&body=BODY>Gmail</a>
+         <a href = https://github.com/linto2003>Github</a>
+        </p>
+    </div>
+    
 
-    <h4>Experience</h4>
     <hr>
-    <p><h3>PNT Robotics & Automation Solutions</h3>
+    <div class = 'aboutme'>
+        <h4 class = "subtitle">About Me</h4>
+
+        <hr>
+    
+        <p>As a student in Computer Engineering at Mumbai University, I am interested in leveraging technology to tackle real-world
+            problems and make a big difference. I am also eager to learn and improve professionally and am open to new challenges and
+            chances for personal and professional growth.
+        </p>
+        
+
+    </div class = 'Education'>
+   
+    <div>
+        <h4 class = "subtitle"> Education</h4>
+        <hr>
+        <p><h3 class = "college_name">Vivekanand Education Society’s Institute of Technology</h3>
+            Bachelor of Engineering in Computer Engineering
+            <ul>
+                <li>Relevant Coursework: Advanced Algorithms, Software Engineering, Data Structures, Python, Analysis of Algorithms,
+                    Database Management, Probabilistic Graphical Model, OOP (Java), Operating System, Computer Graphics
+                </li>
+                <li><h4>Overall CPI : 9.3</h4>
+                </li>
+            </ul>
+        </p>
+
+    </div>
+   
+    <div class="Experience">
+        <h4 class = "subtitle">Experience</h4>
+    <hr>
+    <p><h3 class = "company_name">PNT Robotics & Automation Solutions</h3>
     Intern 
     <ul>
         <li>Made a line following the robot :</li>
@@ -62,5 +79,8 @@
         <li>Made a Hand gesture detection project using Media Pipe</li>    
      </ul>
     </p>
+
+    </div>
+    
 </body>
 </html>

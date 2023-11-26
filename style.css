@@ -1,0 +1,213 @@
+
+body{
+    display: block;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+   
+}
+
+h2{
+    font-size: xx-large;  
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.nav-bar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 60px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto; 
+    align-self: center;
+}
+  
+
+.bird-logo{
+    height: 90px;
+    border-radius: 50%;
+}
+
+a {
+    outline-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Nova Square', sans-serif;
+    padding: 2px 1px 0;
+  }
+
+a:hover{
+    color: aqua;
+}
+.nav-bar>*{
+    flex-basis: 100px;
+}
+
+
+.main_img{
+    margin-top: 20px;
+    border-radius: 60%;
+    height: 300px; 
+}
+
+
+.job{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.hero{
+    background-color: rgb(45, 226, 226);
+    padding-bottom: 10px;
+    display: flex;
+    gap: 100px;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.index_title{
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size:xx-large;
+    margin: 0px;
+   
+}
+
+.middle,.footer{
+    font-family: 'Nova Square', sans-serif;  
+}
+
+.intro{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.edu{
+    background-color: aquamarine;
+    padding: 50px;
+}
+.list_edu{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_skills{
+    padding-bottom: 10px;
+    display: flex;
+    gap: 50px;
+    height: 40vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.card{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 190, 69);
+    border:10px solid rgb(255, 166, 0);
+    border-radius: 20px;
+    width: 200px;
+    padding: 20px;
+    
+}
+.card>p{
+    text-align: justify;
+}
+.collage,.bottom-container{
+    padding-bottom: 0px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.collage>img{
+    height:70px;
+}
+.collage>svg{
+    height: 70px;
+    width: 70px;
+}
+
+.footer{
+    padding: 2px;
+    background-color:rgb(255, 190, 69);
+}
+
+
+.bottom-container a:hover{
+    color: rgb(255, 255, 255);;
+}
+/* portfolio css */
+.title, .subtitle , .college_name , .comapny_name{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.contact{
+    text-align: center;
+    text-justify: auto;
+}
+
+.image{
+    text-align: center;
+    border-color: black;
+   
+}
+
+
+#name{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .list_skills{
+    flex-direction: column;
+    height: 100%;
+  }
+.main_img{
+    height: 200px;
+    margin-right: 10px;
+}
+
+.index_title{
+    font-size:large;
+}
+.job{
+    font-size: 2rem;
+}
+.hero{
+    gap:10px;
+}
+h3{
+    font-size:15px;
+}
+  }
