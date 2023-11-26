@@ -25,6 +25,8 @@ img{
     padding-right: 60px;
     justify-content: flex-end;
     align-items: center;
+    font-size: 20px;
+    font-family: 'Nova Square', sans-serif;
 }
 
 .logo{
@@ -42,8 +44,7 @@ a {
     outline-color: transparent;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Nova Square', sans-serif;
+    
     padding: 2px 1px 0;
   }
 
@@ -164,7 +165,7 @@ a:hover{
 .bottom-container a:hover{
     color: rgb(255, 255, 255);;
 }
-/* portfolio css */
+
 .title, .subtitle , .college_name , .comapny_name{
     text-align: center;
     text-transform: uppercase;
